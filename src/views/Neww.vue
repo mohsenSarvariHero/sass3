@@ -1,17 +1,17 @@
 <template>
   <div>
-    <about />
+      <h1>why</h1>
+      <neww />
   </div>
 </template>
 
 <script>
-
-import about from '@/components/about.vue'
+import neww from '@/components/neww.vue'
 
 export default {
-  name: 'About',
+  name: 'Neww',
   components: {
-    about
+    neww
   }
 }
 </script>

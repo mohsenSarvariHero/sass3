@@ -1,17 +1,18 @@
 <template>
   <div>
-    <about />
+      <bio />
+      <h2>222222</h2>
   </div>
 </template>
 
 <script>
 
-import about from '@/components/about.vue'
+import bio from '@/components/bio.vue'
 
 export default {
-  name: 'About',
+  name: 'Bio',
   components: {
-    about
+    bio
   }
 }
 </script>
